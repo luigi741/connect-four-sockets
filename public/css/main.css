@@ -1,0 +1,12 @@
+.gameCell {
+	border-style: solid;
+	border-color: darkblue;
+}
+
+.gameCell:hover {
+	background-color: blue !important;
+}
+
+body {
+	font-family: 'Coda', cursive;
+}

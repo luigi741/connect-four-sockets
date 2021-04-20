@@ -1,0 +1,59 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Connect Four</title>
+		<link rel="stylesheet" href="/css/bootstrap.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<script src="/js/jquery.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Coda&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<br>
+		<div class="container">
+			<h1>Connect Four</h1>
+	
+			<button class="btn btn-primary" id="startButton">
+				Start
+			</button>
+			<br>
+			<br>
+			<div class="container" id="tableContainer"></div>
+		</div>
+		<br>
+		<div class="container">
+			<button class="btn btn-primary" id="createRoomButton">
+				Create Room
+			</button>
+		</div>
+		<br>
+		<div class="container">
+			<button class="btn btn-primary" id="viewAllRoomsButton">
+				View Rooms
+			</button>
+		</div>
+		<br>
+		<div class="container">
+			<button class="btn btn-primary" id="joinRoomButton">
+				Join Room
+			</button>
+		</div>
+		<br>
+		<div class="container">
+			<button class="btn btn-primary" id="emitAllButton">
+				Emit All
+			</button>
+		</div>
+		<br>
+		<div class="container">
+			<button class="btn btn-primary" id="listPlayers">
+				View Players
+			</button>
+		</div>
+
+		<script src="/js/index.js"></script>
+		<script src="/js/socket.io.js"></script>
+	</body>
+</html>
