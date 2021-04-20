@@ -87,6 +87,7 @@ $(() => {
 		});
 	});
 
+	// Get players in current room
 	$('#listPlayers').on('click', () => {
 		socket.emit('getPlayersInRoom', roomToJoin);
 	});
